@@ -37,13 +37,13 @@ h2{
     padding: 10px;
     font-size: 20px;
     color: white;
-    background-color: rgb(8, 0, 80);
+    background-color: rgb(29, 15, 15);
     border-radius: 10px;
     margin-top: 20px;
 }
 .counterBtn:hover{
     cursor: pointer;
-    background-color: rgb(13, 43, 107);
+    background-color: rgb(70, 55, 55);
 }
 .counterText{
     display: flex;

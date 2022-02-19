@@ -1,3 +1,31 @@
+/************
+* Scrollbar
+************/
+:root {
+    scrollbar-color: rgb(29, 15, 15) #f1f1f1 !important;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(66, 55, 55);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(29, 15, 15);
+}
+
+
 .main{
     height: 85vh;
     width: 100%;
@@ -26,13 +54,17 @@
     color: white;
     height:200px;
     width: 70vw;
-    background-color: rgba(25, 25, 26, 0.89);
+    background-color: rgba(56, 47, 47, 0.89);
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+.counter, .counters, .exchangeMenu{
+    background-color: rgb(247, 238, 238)!important;
+}
+
 @media screen and (max-width:666px){
     .mainH1{
         font-size: 30px;
