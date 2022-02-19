@@ -3,9 +3,12 @@
     padding: 6px;
     padding-right: 12px;
     padding-left: 12px;
-    background-color: rgba(0, 0, 71, 0.89);
+    background-color: rgb(29, 15, 15);
     border-radius: 10px;
     color: white;
+}
+.tableBtn:hover{
+    background-color : rgb(70, 55, 55);
 }
 .innerBtnDiv{
     font-size: 20px;
@@ -17,10 +20,10 @@
     border-radius: 10px;
     color: white;
     padding: 5px;
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(51, 143, 74);
 }
 .innerBtn:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(84, 182, 84);
 }
 
 .modalInput{
