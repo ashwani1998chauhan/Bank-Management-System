@@ -1,0 +1,40 @@
+.main{
+    height: 85vh;
+    width: 100%;
+    margin-top: 50px;
+}
+.bankImg{
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: auto;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+.frontContent{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainH1{
+    z-index: 1;
+    font-size: 50px;
+    color: white;
+    height:200px;
+    width: 70vw;
+    background-color: rgba(25, 25, 26, 0.89);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@media screen and (max-width:666px){
+    .mainH1{
+        font-size: 30px;
+    }
+}

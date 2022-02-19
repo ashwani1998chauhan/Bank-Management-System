@@ -1,0 +1,22 @@
+*{
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+  *:before,
+  *:after {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+.App{
+    background-color: rgb(206, 200, 200);
+
+}
+.link{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+
+}

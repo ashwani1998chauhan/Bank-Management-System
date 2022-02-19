@@ -1,0 +1,36 @@
+.history{
+    min-height: 90vh;
+    padding-top: 70px
+}
+.innerHead{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.tableDiv{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: 80vw;
+    border: 1px dashed gray;
+    background-color: rgb(235, 235, 235);
+}
+td, th{
+    text-align: center;
+    padding: 10px;
+}
+th {
+    border-bottom: 1px solid black;
+  }
+
+  @media screen and (max-width: 666px){
+      .innerHead{
+          font-size: 30px;
+      }
+  }
